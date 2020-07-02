@@ -252,3 +252,4 @@ SECRET\_KEY|"your\_secret\_key"
 <h2>Credits</h2>
 
 <h2>Disclaimer</h2>
+<p>The contents of this website are for educational purposes only.</p>
