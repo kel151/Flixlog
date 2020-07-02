@@ -224,6 +224,29 @@ or
 ```bash
 Python3 app.py
 ```
+<h3>Deploying MyAnimeVault to Heroku:</h3>
+
+* 1: <strong>Create</strong> a requirements.txt file using the following command.
+```bash
+pip3 freeze > requirements.txt
+```
+* 2: <strong>Create</strong> a Procfile with the following command.
+```bash
+echo web: python3 app.py > Procfile
+```
+* 3: <strong>Push</strong> these newly created files to your repository.
+* 4: <strong>Create</strong> a new app for this project on the Heroku Dashboard.
+* 5: <strong>Select</strong> your <strong>deployment</strong> method by clicking on the <strong>deployment</strong> method button and select GitHub.
+* 6: On the dashboard, <strong>set</strong> the following config variables:
+
+**Key**|**Value**
+:-----:|:-----:
+IP|0.0.0.0
+PORT|8080
+MONGO\_URI|mongodb+srv://<username>:<password>@<cluster\_name>-qtxun.mongodb.net/<database\_name>?retryWrites=true&w=majority
+SECRET\_KEY|"your\_secret\_key"
+* 7: Click the deploy button on the Heroku dashboard.
+* 8: The site has been deployed the Heroku.
 
 
 <h2>Credits</h2>
