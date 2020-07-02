@@ -165,6 +165,21 @@ View the schema templates for the database collections <a href="https://github.c
 <h4>Bugs During Development</h4>
 
 <h2>Deployment</h2>
+<p>MyAnime vault was developed on Visual Studio Code, using git and Github to host.</p>
+
+<h3>Cloning MyAnimeVault from Github:</h3>
+
+<p>You will need to install the following:</p>
+
+<ul>
+<li><a href="https://pip.pypa.io/en/stable/installing/">PIP</a></li>
+<li><a href="https://www.python.org/">Python</a></li>
+<li><a href="https://git-scm.com/">Git</a></li>
+</ul>
+
+<p>You will also need a <a href="https://www.mongodb.com/">Mongo</a> account for the databsae.<p>
+
+
 
 <h2>Credits</h2>
 
