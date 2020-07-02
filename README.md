@@ -177,9 +177,9 @@ View the schema templates for the database collections <a href="https://github.c
 <li><a href="https://git-scm.com/">Git</a></li>
 </ul>
 
-<p>You will also need a <a href="https://www.mongodb.com/">Mongo</a> account for the databsae.<p>
+<p>You will also need a <a href="https://www.mongodb.com/">MongoDB</a> account for the databsae.<p>
 
-
+<em>WARNING: You may need to follow a different guide based on the OS you are using, read more <a href="https://python.readthedocs.io/en/latest/library/venv.html">here.</a></em>
 
 <h2>Credits</h2>
 
