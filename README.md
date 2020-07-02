@@ -181,6 +181,51 @@ View the schema templates for the database collections <a href="https://github.c
 
 <em>WARNING: You may need to follow a different guide based on the OS you are using, read more <a href="https://python.readthedocs.io/en/latest/library/venv.html">here.</a></em>
 
+* 1: <strong>Clone</strong> the MyAnimeVault repository by either downloading from <a href="https://github.com/kel151/MyAnimeVault"> here</a>, or if you have Git installed typing the following command into your terminal.
+```bash
+git clone https://github.com/kel151/MyAnimeVault
+```
+* 2: <strong>Navigate</strong> to this folder in your terminal.
+* 3: <strong>Enter</strong> the following command into your terminal.
+```bash
+python3 -m .venv venv
+```
+* 4: <strong>Initilaize</strong> the environment by using the following command.
+```bash
+.venv\bin\activate 
+```
+* 5: <strong>Install</strong> the relevant requirements & dependancies from the requirements.txt file.
+```bash
+pip3 -r requirements.txt
+```
+* 6: In your IDE now <strong>create</strong> a file where you can store your SECRET_KEY and your MONGO_URI, follow the schema structure located in data/schemas to properly setup the Mongo Collections.
+<em>NOTE: I developed this website on Visual Studio Code and used the following settings.json file, delete and replace with your values.</em>
+```json
+{
+    "python.pythonPath": "env/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": ["--load-plugins=pylint_flask"],
+    "files.autoSave": "onFocusChange",
+    "files.useExperimentalFileWatcher": true,
+    "terminal.integrated.env.osx": {
+      "SECRET_KEY": "<your_secret_key>",
+      "DEV": "1",
+      "FLASK_DEBUG": "1",
+      "MONGO_URI": "<your_mongo_uri>"
+    }      
+}
+```
+* 7: Run the application using 
+```bash
+flask run 
+```
+or 
+```bash
+Python3 app.py
+```
+
+
 <h2>Credits</h2>
 
 <h2>Disclaimer</h2>
