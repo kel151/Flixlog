@@ -11,6 +11,7 @@ app = Flask(__name__)
 mongo = PyMongo(app)
 
 @app.route("/")
+@app.route("/get_entries")
 def get_entries():
     return render_template("entries.html", entries=mongo.db.entries.find())
 
