@@ -3,15 +3,14 @@ from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 
-app = Flask(__name__)
+app.config["MONGO_DBNAME"] = os.getenv('MONGO_DBNAME')
+app.config["MONGO_URI"] = os.getenv('MONGO_URI')
 
-app.config["MONGO_DBNAME"] = "mav"
-app.config["MONGO_URI"] = "mongodb+srv://floppypancake:ms3ser342@myfirstcluster-frg8m.mongodb.net/mav?retryWrites=true&w=majority"
+app = Flask(__name__)
 
 mongo = PyMongo(app)
 
 @app.route("/")
-@app.route("/get_entries")
 def get_entries():
     return render_template("entries.html", entries=mongo.db.entries.find())
 
