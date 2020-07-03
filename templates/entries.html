@@ -1,13 +1,9 @@
-<html>
-    <head>
-
-    </head>
-    <body>
+{% extends "base.html" %}
+{% block content %}
         {% for entry in entries %}
              {{entry.title}}
              {{entry.category}}
              {{entry.rating}}
              {{entry.comments}}
         {% endfor %}
-    </body>
-</html>
+{% endblock %}
