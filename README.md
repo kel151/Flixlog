@@ -1,6 +1,6 @@
-<h1>MyAnimeVault</h1>
-<p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
-<p>Think of it as a very niche film critiquing app for personal use. You watch anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply log in, make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
+<h1>OurAnimeVault</h1>
+<p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where OurAnimeVault comes in.</p>
+<p>Think of it as a very niche and collective film critiquing app for personal use. You watch anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
 <h2>Content:</h2>
 <ul>
@@ -51,7 +51,7 @@
 
 <h2>User Experience 👍</h2>
 <h3>Project Goals:</h3>
-<p>The goal of this project is to provide users with an online repository in which they can record their opinions of the anime titles they've seen, rating them and providing their intial thoughts. This project will serve as a film critiquing service for personal use that caters to a very specific genre and demographic.</p>
+<p>The goal of this project is to provide users with a online repository in which they can record their opinions of the anime titles they've seen, rating them and providing their intial thoughts. This project will serve as a collective film critiquing service for personal use that caters to a very specific genre and demographic.</p>
 
 <h3>Target Audience Goals:</h3>
 <ul>
@@ -140,7 +140,7 @@ Category|category|String
 Rating|rating|Number
 Comments|comments|String
 
-View the schema templates for the database collections <a href="https://github.com/kel151/MyAnimeVault/blob/master/data/schemas.json">here.</a>
+View the schema templates for the database collections <a href="https://github.com/kel151/OurAnimeVault/blob/master/data/schemas.json">here.</a>
 
 <h2>Features</h2>
 
@@ -165,9 +165,9 @@ View the schema templates for the database collections <a href="https://github.c
 <h4>Bugs During Development</h4>
 
 <h2>Deployment</h2>
-<p>MyAnime vault was developed on Visual Studio Code, using git and Github to host.</p>
+<p>OurAnimeVault was developed on Gitpod, using git and Github to host.</p>
 
-<h3>Cloning MyAnimeVault from Github:</h3>
+<h3>Cloning OurAnimeVault from Github:</h3>
 
 <p>You will need to install the following:</p>
 
@@ -181,9 +181,9 @@ View the schema templates for the database collections <a href="https://github.c
 
 <em>WARNING: You may need to follow a different guide based on the OS you are using, read more <a href="https://python.readthedocs.io/en/latest/library/venv.html">here.</a></em>
 
-* 1: <strong>Clone</strong> the MyAnimeVault repository by either downloading from <a href="https://github.com/kel151/MyAnimeVault"> here</a>, or if you have Git installed typing the following command into your terminal.
+* 1: <strong>Clone</strong> the OurAnimeVault repository by either downloading from <a href="https://github.com/kel151/OurAnimeVault"> here</a>, or if you have Git installed typing the following command into your terminal.
 ```bash
-git clone https://github.com/kel151/MyAnimeVault
+git clone https://github.com/kel151/OurAnimeVault
 ```
 * 2: <strong>Navigate</strong> to this folder in your terminal.
 * 3: <strong>Enter</strong> the following command into your terminal.
@@ -224,7 +224,7 @@ or
 ```bash
 Python3 app.py
 ```
-<h3>Deploying MyAnimeVault to Heroku:</h3>
+<h3>Deploying OurAnimeVault to Heroku:</h3>
 
 * 1: <strong>Create</strong> a requirements.txt file using the following command.
 ```bash
