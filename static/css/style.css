@@ -4,7 +4,7 @@
 }
 
 .welcomepage {
-  background-image: url(../images/welcomeoav.jpg);
+  background-image: url(../css/images/welcomeoav.jpg);
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -63,3 +63,17 @@
  }
  .s-m a:hover > i{
     transform: scale(1.6) rotate(25deg);
+ }
+
+ /* Media queries used to enhance responsiveness and make title and about info adapt better to different screen sizes */
+ @media only screen and (min-width: 1000px) {
+    .title{
+          width: 30%
+      }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .about{
+          width: 50%
+      }
+  }
