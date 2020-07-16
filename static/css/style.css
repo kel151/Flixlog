@@ -1,5 +1,65 @@
 /*NavBar*/
-.nav-wrapper {
+.navbar {
     background-color: #1e3231;
 }
 
+.welcomepage {
+  background-image: url(../images/welcomeoav.jpg);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Title set in its own div */
+.title {
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50px;
+    opacity: 80%;  
+}
+
+/* About info set in its own div */
+.about {
+    width: 100%;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50px;
+    opacity: 80%;
+}
+
+/* Social media handles */
+.s-m {
+    text-align: center;
+    padding: 10px 0;
+    background: #1e3231;
+    height: 60px;
+ }
+ .s-m a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #FF69B4 ;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    font-size: 22px;
+ }
+ .s-m a:hover {
+    color: black;
+    text-decoration: none;
+ }
+ .s-m a i {
+    transition: 0.2s all;
+ }
+ .s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
