@@ -1,7 +1,7 @@
-{% extends "base.html" %} {% block content %} {% for entry in entries %} {{entry.title}} {{entry.category}} {{entry.rating}} {{entry.comments}} {% endfor %}
+{% extends "base.html" %} {% block content %} 
 
+         {% for entry in entries %}
         <div id="accordion">
-        {% for entry in entries %}
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
@@ -13,10 +13,11 @@
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
+      {{entry.comments}}
       </div>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
