@@ -13,23 +13,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
     <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
+  </head>
 
- </head>
   <body>
-  <!-- Navigation Bar -->
+<!-- Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-        <a href="#" class="navbar-brand">OurAnimeVault</a>
+        <a href="{{url_for('get_index')}}" class="navbar-brand">OurAnimeVault</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="entries.html" class="nav-link">Entries</a>
+                    <a href="{{url_for('get_entries')}}" class="nav-link">Entries</a>
                 </li>
                 <li class="nav-item">
-                    <a href="makeentry.html" class="nav-link">Make An Entry</a>
+                    <a href="{{url_for('get_makeentry')}}" class="nav-link">Make An Entry</a>
                 </li>
             </ul>
         </div>
@@ -37,26 +37,10 @@
 
     <main>
 		<!--The container applies the html to other pages-->
-		<div class="container">
+		<div class="base">
 			{% block content %} {% endblock %}
 		</div>
 	</main>
-
-        <div class="container-fluid">
-            <div class="welcomepage row">
-                <div class="col-12">
-                    <!-- Title in its own div so as to be able to enclose it in a semi-opaque box that seems to hover on top of the background image -->
-                    <div class="title">
-                        <h1>Welcome To OurAnimeVault</h1>
-                    </div>
-
-                    <div class="about">
-                        <!-- About info in its own div so as to be able to enclose it in a semi-opaque box that seems to hover on top of the background image -->
-                        <p>An online resposity in which anyone can make an entry to share, rate and critique their favourite anime titles.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     <footer>
         <!-- Social media handles in footer -->
@@ -67,8 +51,8 @@
             <a href="https://ie.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
         </div>
-
     </footer>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

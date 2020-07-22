@@ -34,6 +34,22 @@
     opacity: 80%;
 }
 
+.formpage {
+    height:100vh;
+    background-image: url(../css/images/welcomeoav.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 60px 30px 30px 30px;
+    color: black;
+}
+
+/* Contact form */
+.form-control {
+    margin: 20px 0;
+    width: 60%;
+    margin-left: 19%;
+}
+
 /* Social media handles */
 .s-m {
     text-align: center;
