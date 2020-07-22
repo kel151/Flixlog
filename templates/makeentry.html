@@ -3,10 +3,11 @@
   <div class="title">
      <form id="contact-form" name="contact-form" method="post">
        <input type="hidden" name="contact_number">
-       <input type="text" class="form-control" name="anime_title" placeholder="Title">
-       <input type="text" class="form-control" name="anime_genre" placeholder="Genre">
-       <input type="number" min="0" max="5" class="form-control" name="anime_rating" placeholder="Rating">
-       <textarea name="message" class="form-control" rows="3" placeholder="Comments"></textarea>
+       <input type="text" class="form-control" name="title" placeholder="Title">
+       <input type="text" class="form-control" name="genre" placeholder="Genre">
+       <!-- Included min and max number so that user will be unable to make an entry with a rating more than five -->
+       <input type="number" min="0" max="5" class="form-control" name="rating" placeholder="Rating">
+       <textarea name="comment" class="form-control" rows="3" placeholder="Comments"></textarea>
        <input type="submit" value="Add To Vault!">
      </form>
   </div>
