@@ -4,7 +4,7 @@
 }
 
 .welcomepage {
-  background-image: url(../css/images/welcomeoav.jpg);
+  background-image: url(../images/welcomeoav.jpg);
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -36,7 +36,7 @@
 
 .entriespage {
     height: 100vh;
-    background-image: url(../css/images/welcomeoav.jpg);
+    background-image: url(../images/welcomeoav.jpg);
     background-size: cover;
     text-align: center;
     padding: 60px 30px 30px 30px;
@@ -52,7 +52,7 @@
 
 .formpage {
     height: 100vh;
-    background-image: url(../css/images/welcomeoav.jpg);
+    background-image: url(../images/welcomeoav.jpg);
     background-size: cover;
     text-align: center;
     padding: 60px 30px 30px 30px;
