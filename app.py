@@ -25,6 +25,12 @@ def get_entries():
 def get_makeentry():
     return render_template("makeentry.html", entries=mongo.db.entries.find())
 
+@app.route('/insert_entries', methods=["post"])
+def insert_entries():
+    entries = mongo.db.entries
+    entries.insert_one(request.form.to_dict())
+    return redirect(url_for('get_entries'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
