@@ -21,15 +21,13 @@ def get_index():
 def get_entries():
     return render_template("entries.html", entries=mongo.db.entries.find())
 
-@app.route("/makeentry")
+@app.route("/entry/add", methods=["GET", "POST"])
 def get_makeentry():
-    return render_template("makeentry.html", entries=mongo.db.entries.find())
-
-@app.route('/insert_entries', methods=["post"])
-def insert_entries():
-    entries = mongo.db.entries
-    entries.insert_one(request.form.to_dict())
-    return redirect(url_for('get_entries'))
+    if request.method == "POST":
+        mongo.db.entries.insert_one(request.form.to_dict())
+        return redirect(url_for('get_entries'))
+    else:
+        return render_template("makeentry.html", entries=mongo.db.entries.find())
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
