@@ -66,6 +66,11 @@
     margin-left: 19%;
 }
 
+.btn {
+    float: left;
+    margin: 4px; 
+}
+
 /* Social media handles */
 .s-m {
     text-align: center;
