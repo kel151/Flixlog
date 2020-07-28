@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %} 
+<div class="formpage row">
+  <div class="title">
+     <form id="contact-form" action="{{url_for('get_makeentry')}}" name="contact-form" method="POST">
+       <input type="hidden" name="contact_number">
+       <input type="text" class="form-control" name="title" placeholder="Title" value="{{ entry.title }}">
+       <input type="text" class="form-control" name="category" placeholder="Category" value="{{ entry.category }}">
+       <!-- Included min and max number so that user will be unable to make an entry with a rating more than five -->
+       <input type="number" min="0" max="5" class="form-control" name="rating" placeholder="Rating" value="{{ entry.rating }}">
+       <textarea name="comments" class="form-control" rows="3" placeholder="Comments">{{ entry.comments }}</textarea>
+       <input type="submit" value="Edit Entry!">
+     </form>
+  </div>
+</div>
+{% endblock %}

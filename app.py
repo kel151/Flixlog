@@ -29,6 +29,26 @@ def get_makeentry():
     else:
         return render_template("makeentry.html", entries=mongo.db.entries.find())
 
+@app.route('/edit_entry/<entry_id>')
+def edit_entry(entry_id):
+    the_entry =  mongo.db.entries.find_one({"_id": ObjectId(entry_id)})
+    all_categories =  mongo.db.categories.find()
+    print(the_entry)
+    return render_template('editentry.html', entry=the_entry,
+                           categories=all_categories)
+
+@app.route('/update_entry/<entry_id>', methods=["POST"])
+def update_entry(entry_id):
+    entries = mongo.db.entries
+    entries.update( {'_id': ObjectId(entry_id)},
+    {
+        'entry_title':request.form.get('entry_title'),
+        'entry_category':request.form.get('entry_category'),
+        'entry_rating': request.form.get('entry_rating'),
+        'entry_comments': request.form.get('entry_comments'),
+    })
+    return redirect(url_for('get_entries'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
