@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %} 
 <div class="formpage row">
   <div class="title">
-     <form id="contact-form" action="{{url_for('get_makeentry')}}" name="contact-form" method="POST">
+     <form id="contact-form" action="{{url_for('update_entry', entry_id=entry._id)}}" name="contact-form" method="POST">
        <input type="hidden" name="contact_number">
        <input type="text" class="form-control" name="title" placeholder="Title" value="{{ entry.title }}">
        <input type="text" class="form-control" name="category" placeholder="Category" value="{{ entry.category }}">
