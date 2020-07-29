@@ -42,10 +42,10 @@ def update_entry(entry_id):
     entries = mongo.db.entries
     entries.update( {'_id': ObjectId(entry_id)},
     {
-        'entry_title':request.form.get('entry_title'),
-        'entry_category':request.form.get('entry_category'),
-        'entry_rating': request.form.get('entry_rating'),
-        'entry_comments': request.form.get('entry_comments'),
+        'title':request.form.get('title'),
+        'category':request.form.get('category'),
+        'rating': request.form.get('rating'),
+        'comments': request.form.get('comments'),
     })
     return redirect(url_for('get_entries'))
 
