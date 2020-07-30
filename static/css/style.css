@@ -35,7 +35,7 @@
 }
 
 .entriespage {
-    
+    min-height: 100vh;
     background-image: url(../images/welcomeoav.jpg);
     background-size: cover;
     text-align: center;
