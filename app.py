@@ -49,6 +49,11 @@ def update_entry(entry_id):
     })
     return redirect(url_for('get_entries'))
 
+@app.route('/delete_entry/<entry_id>')
+def delete_entry(entry_id):
+    mongo.db.entries.remove({'_id': ObjectId(entry_id)})
+    return redirect(url_for('get_entries'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
