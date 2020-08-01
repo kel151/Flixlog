@@ -1,126 +1,114 @@
 /* NavBar */
-.navbar {
-    background-color: #1e3231;
+ .navbar {
+     background-color: #1e3231;
 }
-
 /* Welcome page */
-.welcomepage {
-  background-image: url(../images/welcomeoav.jpg);
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
+ .welcomepage {
+     background-image: url(../images/welcomeoav.jpg);
+     background-size: cover;
+     height: 100vh;
+     text-align: center;
 }
-
 /* Title set in its own div */
-.title {
-    width: 100%;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 50px;
-    opacity: 80%;  
+ .title {
+     width: 100%;
+     padding: 1rem;
+     background-color: black;
+     color: white;
+     margin: auto;
+     margin-top: 10%;
+     border-radius: 50px;
+     opacity: 80%;
 }
-
 /* About info set in its own div */
-.about {
-    width: 100%;
-    padding: 2rem;
-    background-color: black;
-    color: white;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 50px;
-    opacity: 80%;
+ .about {
+     width: 100%;
+     padding: 2rem;
+     background-color: black;
+     color: white;
+     margin: auto;
+     margin-top: 10%;
+     border-radius: 50px;
+     opacity: 80%;
 }
-
 /* Entries page */
-.entriespage {
-    min-height: 100vh;
-    background-image: url(../images/welcomeoav.jpg);
-    background-size: cover;
-    text-align: center;
-    padding: 60px 30px 30px 30px;
-    object-position: center;
+ .entriespage {
+     min-height: 100vh;
+     background-image: url(../images/welcomeoav.jpg);
+     background-size: cover;
+     text-align: center;
+     padding: 60px 30px 30px 30px;
+     object-position: center;
 }
-
 /* Collapsible/accordion that displays user entries */
-.card {
-    background-color: #1e3231;
-    color: whitesmoke;
-    width: 50%;
-    margin: auto;
+ .card {
+     background-color: #1e3231;
+     color: whitesmoke;
+     width: 50%;
+     margin: auto;
 }
-
 /* Form page */
-.formpage {
-    height: 100vh;
-    background-image: url(../images/welcomeoav.jpg);
-    background-size: cover;
-    text-align: center;
-    padding: 60px 30px 30px 30px;
-    color: black;
+ .formpage {
+     height: 100vh;
+     background-image: url(../images/welcomeoav.jpg);
+     background-size: cover;
+     text-align: center;
+     padding: 60px 30px 30px 30px;
+     color: black;
 }
-
 /* Make an entry form */
-.form-control {
-    margin: 20px 0;
-    width: 60%;
-    margin-left: 19%;
+ .form-control {
+     margin: 20px 0;
+     width: 60%;
+     margin-left: 19%;
 }
-
-.btn {
-    float: left;
-    margin: 4px; 
+ .btn {
+     float: left;
+     margin: 4px;
 }
-
 /* Social media handles */
-.s-m {
-    text-align: center;
-    padding: 10px 0;
-    background: #1e3231;
-    height: 60px;
- }
+ .s-m {
+     text-align: center;
+     padding: 10px 0;
+     background: #1e3231;
+     height: 60px;
+}
  .s-m a {
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-    background: #FF69B4;
-    color: white;
-    margin: 0 6px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-    font-size: 22px;
- }
+     display: inline-flex;
+     width: 40px;
+     height: 40px;
+     background: #FF69B4;
+     color: white;
+     margin: 0 6px;
+     border-radius: 50%;
+     justify-content: center;
+     align-items: center;
+     transition: 0.2s;
+     font-size: 22px;
+}
  .s-m a:hover {
-    color: black;
-    text-decoration: none;
- }
+     color: black;
+     text-decoration: none;
+}
  .s-m a i {
-    transition: 0.2s all;
- }
+     transition: 0.2s all;
+}
  .s-m a:hover > i{
-    transform: scale(1.6) rotate(25deg);
- }
-
- /* Media queries used to enhance responsiveness and make title and about info  and entries accordion adapt better to different screen sizes */
+     transform: scale(1.6) rotate(25deg);
+}
+/* Media queries used to enhance responsiveness and make title and about info and entries accordion adapt better to different screen sizes */
  @media only screen and (min-width: 1000px) {
-    .title{
-          width: 30%
-      }
-  }
-
-  @media only screen and (min-width: 1000px) {
-    .about{
-          width: 50%
-      }
-  }
-
-  @media only screen and (max-width: 480px) {
-    .card{
-          width: 90%
-      }
-  }
+     .title{
+         width: 30% 
+    }
+}
+ @media only screen and (min-width: 1000px) {
+     .about{
+         width: 50% 
+    }
+}
+ @media only screen and (max-width: 480px) {
+     .card{
+         width: 90% 
+    }
+}
