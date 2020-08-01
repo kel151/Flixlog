@@ -1,56 +1,51 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>OurAnimeVault</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
-  </head>
-
-  <body>
-<!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-        <a href="{{url_for('get_index')}}" class="navbar-brand">OurAnimeVault</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
+   <head>
+      <title>OurAnimeVault</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
+      <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
+   </head>
+   <body>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+         <a href="{{url_for('get_index')}}" class="navbar-brand">OurAnimeVault</a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="{{url_for('get_entries')}}" class="nav-link">Entries</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{url_for('get_makeentry')}}" class="nav-link">Make An Entry</a>
-                </li>
+               <li class="nav-item">
+                  <a href="{{url_for('get_entries')}}" class="nav-link">Entries</a>
+               </li>
+               <li class="nav-item">
+                  <a href="{{url_for('get_makeentry')}}" class="nav-link">Make An Entry</a>
+               </li>
             </ul>
-        </div>
-    </nav>
-
-    <main>
-		<!--The container applies the base elements to other pages-->
-		<div class="base">
-        
-			{% block content %} {% endblock %}
-		</div>
-	</main>
-
-    <footer>
-        <!-- Social media handles in footer -->
-        <div class="s-m">
+         </div>
+      </nav>
+      <main>
+         <!--The container applies the base elements to other pages-->
+         <div class="base">
+            {% block content %} {% endblock %}
+         </div>
+      </main>
+      <footer>
+         <!-- Social media handles in footer -->
+         <div class="s-m">
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
             <a href="https://ie.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
-        </div>
-    </footer>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </body>
+         </div>
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   </body>
 </html>
