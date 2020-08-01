@@ -1,11 +1,12 @@
 {% extends 'base.html' %} {% block content %} 
+<!-- Make an entry form -->
 <div class="formpage row">
   <div class="title">
      <form id="contact-form" action="{{url_for('get_makeentry')}}" name="contact-form" method="POST">
        <input type="hidden" name="contact_number">
        <input type="text" class="form-control" name="title" placeholder="Title">
        <input type="text" class="form-control" name="category" placeholder="Category">
-       <!-- Included min and max number so that user will be unable to make an entry with a rating more than five -->
+       <!-- To adhere to 5 star rating system, I included min and max number so that user will be unable to make an entry with a rating more than five -->
        <input type="number" min="0" max="5" class="form-control" name="rating" placeholder="Rating">
        <textarea name="comments" class="form-control" rows="3" placeholder="Comments"></textarea>
        <input type="submit" value="Add To Vault!">

@@ -1,5 +1,7 @@
 {% extends 'base.html' %} {% block content %} 
+<!-- Edit enrty form -->
 <div class="formpage row">
+<!-- The below div class is title so that the title CSS applies to this form as well -->
   <div class="title">
      <form id="contact-form" action="{{url_for('update_entry', entry_id=entry._id)}}" name="contact-form" method="POST">
        <input type="hidden" name="contact_number">
