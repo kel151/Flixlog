@@ -1,6 +1,6 @@
 <h1>OurAnimeVault</h1>
 <p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where OurAnimeVault comes in.</p>
-<p>Think of it as a very niche and collective film critiquing app for personal use. You watch anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
+<p>Think of it as a very niche and collective film critiquing app for personal use. You watch an anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
 <h2>Content:</h2>
 <ul>
@@ -94,15 +94,15 @@
 </ul>
 
 <h2>Design Choices</h2>
-<p>It was important for me to create a project aesthetic that suited the theme of Japanese anime. In light of this, I opted for a colour palette that blended a largely pastel theme grounded by some darker and bolder elements. This is because when most people think of anime, they often think of either soft pastels or strong, bold, and often dark colours, so I thought to blend the two toegther in a way that appeared cohesive and seamless as well facilitated a positive user experience.</p>
+<p>It was important for me to create a project aesthetic that suited the theme of Japanese anime. In light of this, I opted for a unifying background image that contained some popular Japanese titles. This was then framed by a dark footer and navbar, which the social media handles of the footer being pink, because when most people think of anime, they often think of either soft pastels like pink. I also opted for the accordians to be of a similar black to the footer and navbar, to provide more of a sense of cohesion. All in all, I feel all of these elements blended together in a way that appeared cohesive and seamless as well facilitated a positive user experience.</p>
 
 <h3>Fonts:</h3>
 
 <h3>Colours:</h3>
-<p>I carefully considered which colours I wanted to use because I knew I wanted to mix some genre-defining pastels with some darker elements, but I also needed to ensure that the colour combinations complimeted each other while not overpowering one another or competing for the user's attention in jarring or dissonant way. So, after careful deliberation, I decided to use <a href="https://coolors.co/">coolers</a>, which is a colour scheme generator. It helped to experiment with dfferent palette and eventually decide on a group of colours that I think were attractive and appropriate for the project. The chosen colours are:
+<p>I carefully considered which colours I wanted to use because I knew I wanted to mix some genre-defining pastels with some darker elements, but I also needed to ensure that the colour combinations complimeted the background image as well as each other while not overpowering one another or competing for the user's attention in jarring or dissonant way. So, after careful deliberation, I decided to use <a href="https://coolors.co/">coolers</a>, which is a colour scheme generator. It helped to experiment with dfferent palette and eventually decide on a group of colours that I think were attractive and appropriate for the project. The chosen colours are:
 
 <ul>
-<li>1e3231</li>
+<li>![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`</li>
 <li>485665</li>
 <li>8e7c93</li>
 <li>d0a5c0</li>
