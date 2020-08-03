@@ -148,7 +148,7 @@ View the schema templates for the database collections <a href="https://github.c
 </ul>
 
 <h2>Technologies Used 👨‍💻</h2>
-<h3>Languages:</h3>
+<h4>Languages:</h4>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
@@ -157,9 +157,18 @@ View the schema templates for the database collections <a href="https://github.c
 <li><a href="https://www.python.org/">Python</a></li>
 </ul>
 
-<h4>Languages:</h4>
-
 <h4>Tools & Libraries:</h4>
+<ul>
+<li><a href="https://jquery.com/">jQuery</a></li>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a></li>
+<li><a href="https://pymongo.readthedocs.io/en/stable/">PyMongo</a></li>
+<li><a href="https://flask.palletsprojects.com/en/1.0.x/">Flask</a></li>
+<li><a href="https://jinja.palletsprojects.com/en/2.10.x/">Jinja</a></li>
+<li><a href="https://www.heroku.com/">Heroku</a><li>
+<li><a href="https://coolors.co/">Coolers</a><li>
+</ul>
 
 <h2>Planning + Testing</h2>
 
