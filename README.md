@@ -133,8 +133,19 @@ View the schema templates for the database collections <a href="https://github.c
 <h2>Features</h2>
 
 <h3>Features that have been developed:</h3>
+<ul>
+<li>Fixed navbar.</li>
+<li>Animated social media handles.</li>
+<li>Responsive accordian display of entries.</li>
+</ul>
 
 <h3>Features that will be developed in the future:</h3>
+<ul>
+<li>Register/create an account.</li>
+<li>Log-in and log-out functionality.</li>
+<li>Email authentication for added security.</li>
+<li>Search bar for entries to make locating them easier when the list grows.</li>
+</ul>
 
 <h2>Technologies Used 👨‍💻</h2>
 
