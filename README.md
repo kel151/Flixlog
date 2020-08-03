@@ -166,8 +166,8 @@ View the schema templates for the database collections <a href="https://github.c
 <li><a href="https://pymongo.readthedocs.io/en/stable/">PyMongo</a></li>
 <li><a href="https://flask.palletsprojects.com/en/1.0.x/">Flask</a></li>
 <li><a href="https://jinja.palletsprojects.com/en/2.10.x/">Jinja</a></li>
-<li><a href="https://www.heroku.com/">Heroku</a><li>
-<li><a href="https://coolors.co/">Coolers</a><li>
+<li><a href="https://www.heroku.com/">Heroku</a></li>
+<li><a href="https://coolors.co/">Coolers</a></li>
 </ul>
 
 <h2>Planning + Testing</h2>
