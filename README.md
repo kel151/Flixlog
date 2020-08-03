@@ -148,6 +148,14 @@ View the schema templates for the database collections <a href="https://github.c
 </ul>
 
 <h2>Technologies Used 👨‍💻</h2>
+<h3>Languages:</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+<li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
+<li><a href="https://www.json.org/json-en.html">JSON</a></li>
+<li><a href="https://www.python.org/">Python</a></li>
+</ul>
 
 <h4>Languages:</h4>
 
