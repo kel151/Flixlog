@@ -173,6 +173,7 @@ View the schema templates for the database collections <a href="https://github.c
 <h2>Planning + Testing</h2>
 
 <h4>Planning:</h4>
+<p>Planning for this was relatively smooth because I had a clear idea of what I wanted to achieve before starting it. However, I ran into a few difficulties, the main one being time constraints. Therefore, I couldn't include as many features as I planned to.</p>
 
 <h4>Testing:</h4>
 
