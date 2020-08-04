@@ -13,13 +13,22 @@ app.config["MONGO_URI"] = os.getenv('MONGO_URI')
 
 mongo = PyMongo(app)
 
+""" Route for landing page
+"""
+
 @app.route("/")
 def get_index():
     return render_template("index.html", entries=mongo.db.entries.find())
 
+""" Route for entries page
+"""
+
 @app.route("/entries")
 def get_entries():
     return render_template("entries.html", entries=mongo.db.entries.find())
+
+""" Route for adding entries
+"""
 
 @app.route("/entry/add", methods=["GET", "POST"])
 def get_makeentry():
@@ -29,6 +38,9 @@ def get_makeentry():
     else:
         return render_template("makeentry.html", entries=mongo.db.entries.find())
 
+""" Route for editing entries
+"""
+
 @app.route('/edit_entry/<entry_id>')
 def edit_entry(entry_id):
     the_entry =  mongo.db.entries.find_one({"_id": ObjectId(entry_id)})
@@ -36,6 +48,9 @@ def edit_entry(entry_id):
     print(the_entry)
     return render_template('editentry.html', entry=the_entry,
                            categories=all_categories)
+
+""" Route for updating the entry after editing
+"""
 
 @app.route('/update_entry/<entry_id>', methods=["POST"])
 def update_entry(entry_id):
@@ -48,6 +63,9 @@ def update_entry(entry_id):
         'comments': request.form.get('comments'),
     })
     return redirect(url_for('get_entries'))
+
+""" Route for deleting entries
+"""
 
 @app.route('/delete_entry/<entry_id>')
 def delete_entry(entry_id):
