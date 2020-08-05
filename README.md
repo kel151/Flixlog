@@ -1,5 +1,5 @@
-<h1>OurAnimeVault</h1>
-<p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where OurAnimeVault comes in.</p>
+<h1>MyAnimeVault</h1>
+<p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
 <p>Think of it as a very niche and collective film critiquing app for personal use. You watch an anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
 <h2>Content:</h2>
@@ -128,7 +128,7 @@ Category|category|String
 Rating|rating|Number
 Comments|comments|String
 
-View the schema templates for the database collections <a href="https://github.com/kel151/OurAnimeVault/blob/master/data/schemas.json">here.</a>
+View the schema templates for the database collections <a href="https://github.com/kel151/MyAnimeVault/blob/master/data/schemas.json">here.</a>
 
 <h2>Features</h2>
 
@@ -182,9 +182,9 @@ View the schema templates for the database collections <a href="https://github.c
 <h4>Bugs During Development</h4>
 
 <h2>Deployment</h2>
-<p>OurAnimeVault was developed on Gitpod, using git and Github to host.</p>
+<p>MyAnimeVault was developed on Gitpod, using git and Github to host.</p>
 
-<h3>Cloning OurAnimeVault from Github:</h3>
+<h3>Cloning MyAnimeVault from Github:</h3>
 
 <p>You will need to install the following:</p>
 
@@ -198,9 +198,9 @@ View the schema templates for the database collections <a href="https://github.c
 
 <em>WARNING: You may need to follow a different guide based on the OS you are using, read more <a href="https://python.readthedocs.io/en/latest/library/venv.html">here.</a></em>
 
-* 1: <strong>Clone</strong> the OurAnimeVault repository by either downloading from <a href="https://github.com/kel151/OurAnimeVault"> here</a>, or if you have Git installed typing the following command into your terminal.
+* 1: <strong>Clone</strong> the MyAnimeVault repository by either downloading from <a href="https://github.com/kel151/MyAnimeVault"> here</a>, or if you have Git installed typing the following command into your terminal.
 ```bash
-git clone https://github.com/kel151/OurAnimeVault
+git clone https://github.com/kel151/MyAnimeVault
 ```
 * 2: <strong>Navigate</strong> to this folder in your terminal.
 * 3: <strong>Enter</strong> the following command into your terminal.
