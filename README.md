@@ -5,7 +5,7 @@
 <h2>Demo:</h2>
 <p>A live demo can be found <a href="https://my-anime-vault.herokuapp.com/">here</a></p>
 <p>Here is the responsiveness preview:
-<a href="static/images/responsive.png">here</a></p>
+<img src="static/images/responsive.png" alt="Responsiveness Preview"></p>
 
 <h2>Introduction:</h2>
 <p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
@@ -24,15 +24,10 @@
   </li>
   <li>Design Choices 🎨
     <ul>
-      <li>Fonts</li>
       <li>Colours</li>
-      <li>Styling</li>
-      <li>Images</li>
-      <li>Backgrounds</li>
+      <li>Background Images</li>
     </ul>
-  </li>
-  <li>Planning ✏️</li>
-  <li>Wireframes 🔧
+  <li>Wireframes 🔧</li>
     <ul>
       <li>Website Layout</li>
       <li>Account Creation Flowchart</li>
