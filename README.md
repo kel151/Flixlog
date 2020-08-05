@@ -231,7 +231,6 @@ pip3 -r requirements.txt
 ```
 * 6: In your IDE now <strong>create</strong> a file where you can store your SECRET_KEY and your MONGO_URI, follow the schema structure located in data/schemas to properly setup the Mongo Collections.
 
-```
 * 7: Run the application using 
 ```bash
 flask run 
