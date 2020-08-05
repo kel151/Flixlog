@@ -288,7 +288,7 @@ SECRET\_KEY|"your\_secret\_key"
  <li>My mentor, Simen, for all of his patience, advice, and recommendations.</li>
  <li>The Code Institute Slack Community for all of their advice, kindness, and encouragement.</li>
  <li>The Student Care team for the constant support, encouragement, and check-in messages.</li>
- <li>Claire Lally from the Student Care Team who has been staunch supporter and a source of light and inspiration during this process.<li>
+ <li>Claire Lally from the Student Care Team who has been staunch supporter and a source of light and inspiration during this process.</li>
  <li>The Code Insitute tutoring team (particularly Samantha, Scott, Xavier, and Tim) for their patience and perpetual willingness to help, no matter how late.</li>
  <li>Michael from the tutoring team who stayed up with me many a late night to help. I wouldn't know as much as I do now without his patient and effective guidance.</li>
  <li>My classmate Sebastien Denommee for all of his support and advice on improving my work.</li>
