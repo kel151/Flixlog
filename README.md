@@ -185,9 +185,12 @@ View the schema templates for the database collections <a href="https://github.c
 <p>I used <a href="https://validator.w3.org/">Code Verifier</a>, and found no errors:
 <img src="static/images/validators/codeverifier.png" alt="Code Verifier"></p>
 
-<p>I used <a href="http://pep8online.com/">PEPr</a>, and found a few errors, the majority being to d with spacing. However, I prefer my this spacing as I feel it makes the code a little neater:
+<p>I used <a href="http://pep8online.com/">PEP8</a>, and found a few errors, the majority being to do with spacing. However, I prefer this spacing as I feel it makes the code a little neater:
 <img src="static/images/validators/pep8.png" alt="PEP8"></p>
 
+<p>I tested the navbar and it works as intended. It's fixed and the links bring you to the relevant pages.<p>
+<p>I tested the social media handles. Their animations work and they bring you to the relevant pages.<p>
+<p>I tested the <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> functionality and it works as intended. Users are able to create an entry, view entries, edit entries, and delete entries.<p>
 
 <h2>Deployment</h2>
 <p>MyAnimeVault was developed on Gitpod, using git and Github to host.</p>
