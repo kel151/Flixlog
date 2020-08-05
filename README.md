@@ -3,10 +3,11 @@
 <p>For my third milestone project, I choose to create an app that allowed users to share, rate, and comment about their favourite anime titles.</p>
 
 <h2>Demo:</h2>
-<p>A live demo can be found [here](https://my-anime-vault.herokuapp.com/)</p>
+<p>A live demo can be found <a href="https://my-anime-vault.herokuapp.com/">here</a></p>
 <p>Here is the responsiveness preview:
- ![Responsive View](static/images/responsive.png)</p>
+<a href="static/images/responsive.png">here</a></p>
 
+<h2>Introduction:</h2>
 <p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
 <p>Think of it as a very niche and collective film critiquing app for personal use. You watch an anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
