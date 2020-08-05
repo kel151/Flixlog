@@ -182,8 +182,11 @@ View the schema templates for the database collections <a href="https://github.c
 <h4>Testing:</h4>
 <p>I used a combination of DevTools and <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to test the responsiveness of the app on devices of differetnet sizes and makes. I also provided a link to the app to family and friends so as to receive firsthand feedback as to how responsive the app truly was. I received no complaints. An example of the responsiveness can be viewed in the first image at the beginning of this ReadMe.</p>
  
-<p>I then used <a href="https://validator.w3.org/">Code Verifier, and there were no errors:</a>
+<p>I used <a href="https://validator.w3.org/">Code Verifier</a>, and found no errors:
 <img src="static/images/validators/codeverifier.png" alt="Code Verifier"></p>
+
+<p>I used <a href="http://pep8online.com/">PEPr</a>, and found a few errors, the majority being to d with spacing. However, I prefer my this spacing as I feel it makes the code a little neater:
+<img src="static/images/validators/pep8.png" alt="PEP8"></p>
 
 
 <h2>Deployment</h2>
