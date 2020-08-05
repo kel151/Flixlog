@@ -1,4 +1,12 @@
 <h1>MyAnimeVault</h1>
+<p>Milestone 3 Project: Data Centric Development - Code Institute<p>
+<p>For my third milestone project, I choose to create an app that allowed users to share, rate, and comment about their favourite anime titles.</p>
+
+<h2>Demo:</h2>
+<p>A live demo can be found [here](https://my-anime-vault.herokuapp.com/)</p>
+<p>Here is the responsiveness preview:
+ ![Responsive View](static/images/responsive.png)</p>
+
 <p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
 <p>Think of it as a very niche and collective film critiquing app for personal use. You watch an anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
@@ -176,6 +184,7 @@ View the schema templates for the database collections <a href="https://github.c
 <p>Planning for this was relatively smooth because I had a clear idea of what I wanted to achieve before starting it. However, I ran into a few difficulties, the main one being time constraints. Therefore, I couldn't include as many features as I planned to.</p>
 
 <h4>Testing:</h4>
+<p>I used a combination of DevTools and <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to test the responsiveness of the app on devices of differetnet sizes and makes. I also provided a link to the app to family and friends so as to receive firsthand feedback as to how responsive the app truly was. I received no complaints. An example of the responsiveness can be viewed in the first image at the beginning of this ReadMe.</p>
 
 <h2>Bugs</h2>
 
