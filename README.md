@@ -230,22 +230,7 @@ python3 -m .venv venv
 pip3 -r requirements.txt
 ```
 * 6: In your IDE now <strong>create</strong> a file where you can store your SECRET_KEY and your MONGO_URI, follow the schema structure located in data/schemas to properly setup the Mongo Collections.
-<em>NOTE: I developed this website on Visual Studio Code and used the following settings.json file, delete and replace with your values.</em>
-```json
-{
-    "python.pythonPath": "env/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintArgs": ["--load-plugins=pylint_flask"],
-    "files.autoSave": "onFocusChange",
-    "files.useExperimentalFileWatcher": true,
-    "terminal.integrated.env.osx": {
-      "SECRET_KEY": "<your_secret_key>",
-      "DEV": "1",
-      "FLASK_DEBUG": "1",
-      "MONGO_URI": "<your_mongo_uri>"
-    }      
-}
+
 ```
 * 7: Run the application using 
 ```bash
