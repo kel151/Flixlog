@@ -283,7 +283,7 @@ SECRET\_KEY|"your\_secret\_key"
 <h2>Credits</h2>
 <h3>Media</h3>
 <p>The images used in this project were taken from <a href="https://unsplash.com//">Unsplash</a>, an open license and highly customizable resource that I greatly recommend.</p>
-<h3>Acknowledgements</p>
+<h3>Acknowledgements</h3>
 <ul>
  <li>My mentor, Simen, for all of his patience, advice, and recommendations.</li>
  <li>The Code Institute Slack Community for all of their advice, kindness, and encouragement.</li>
