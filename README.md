@@ -43,7 +43,7 @@
   <li>Technologies Used 👨‍💻</li>
   <li>Planning + Testing ✏️ 🔌</li>
   <li>Bugs 🐞</li>
-  <li>Deployment 🚀
+  <li>Deployment 🚀</li>
     <ul>
       <li>Deploying to Heroku</li>
       <li>Locally run this project</li>
@@ -181,10 +181,10 @@ View the schema templates for the database collections <a href="https://github.c
 
 <h4>Testing:</h4>
 <p>I used a combination of DevTools and <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to test the responsiveness of the app on devices of differetnet sizes and makes. I also provided a link to the app to family and friends so as to receive firsthand feedback as to how responsive the app truly was. I received no complaints. An example of the responsiveness can be viewed in the first image at the beginning of this ReadMe.</p>
+ 
+<p>I then used <a href="https://validator.w3.org/">Code Verifier, and there were no errors:</a>
+<img src="static/images/validators/codeverifier.png" alt="Code Verifier"></p>
 
-<h2>Bugs</h2>
-
-<h4>Bugs During Development</h4>
 
 <h2>Deployment</h2>
 <p>MyAnimeVault was developed on Gitpod, using git and Github to host.</p>
@@ -246,7 +246,7 @@ or
 ```bash
 Python3 app.py
 ```
-<h3>Deploying OurAnimeVault to Heroku:</h3>
+<h3>Deploying MyAnimeVault to Heroku:</h3>
 
 * 1: <strong>Create</strong> a requirements.txt file using the following command.
 ```bash
