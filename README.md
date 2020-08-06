@@ -8,6 +8,7 @@
 <img src="static/images/responsive.png" alt="Responsiveness Preview"></p>
 
 <h2>Introduction:</h2>
+
 <p>Have you ever tried to remember the name of that really good anime you watched ages ago? Have you ever tried to remember what your intial thoughts on it were or all of the reasons why you liked (or disliked) it? If you're anything like me, then the answer to both of these questions is yes. That's where MyAnimeVault comes in.</p>
 <p>Think of it as a very niche and collective film critiquing app for personal use. You watch an anime that you like or dislike that you might want to remember for the purposes of recommending it or rewatching it later, simply make an entry, and there you go. Your intial thoughts and feelings are recorded for reference later.<p>
 
@@ -42,6 +43,7 @@
   </li>
   <li>Technologies Used 👨‍💻</li>
   <li>Planning + Testing ✏️ 🔌</li>
+  <li>Bugs 🐞</li>
   <li>Deployment 🚀</li>
     <ul>
       <li>Deploying to Heroku</li>
@@ -193,6 +195,9 @@ View the schema templates for the database collections <a href="https://github.c
 
 <p>I used <a href="http://csslint.net/">CCSSLint</a>, and found the following errors and warnings:
 <img src="static/images/validators/cssval.png" alt="CSSLint"></p>
+
+<h2>Bugs 🐞</h2>
+<p>I didn't encounter any noteworthy bugs while building this project. I surmise that this was because of the relatively simple nature of what this app entailed. The process was comparatively straigthforward once I learned how to do what I needed to do.</p>
 
 <h2>Deployment</h2>
 <p>MyAnimeVault was developed on Gitpod, using git and Github to host. Howeever this section will be written from the perspective of Visual Studio Code because I started with that IDE and then moved to Gitpod halfway through.</p>
