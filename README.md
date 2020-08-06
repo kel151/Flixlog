@@ -196,7 +196,7 @@ View the schema templates for the database collections <a href="https://github.c
 <img src="static/images/validators/cssval.png" alt="CSSLint"></p>
 
 <h2>Deployment</h2>
-<p>MyAnimeVault was developed on Gitpod, using git and Github to host.</p>
+<p>MyAnimeVault was developed on Gitpod, using git and Github to host. Howeever this section will be written from the perspective of VSCode because I started with that IDE and then moved to Gitpod halfway through.</p>
 
 <h3>Cloning MyAnimeVault from Github:</h3>
 
