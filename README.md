@@ -42,7 +42,6 @@
   </li>
   <li>Technologies Used 👨‍💻</li>
   <li>Planning + Testing ✏️ 🔌</li>
-  <li>Bugs 🐞</li>
   <li>Deployment 🚀</li>
     <ul>
       <li>Deploying to Heroku</li>
@@ -196,7 +195,7 @@ View the schema templates for the database collections <a href="https://github.c
 <img src="static/images/validators/cssval.png" alt="CSSLint"></p>
 
 <h2>Deployment</h2>
-<p>MyAnimeVault was developed on Gitpod, using git and Github to host. Howeever this section will be written from the perspective of VSCode because I started with that IDE and then moved to Gitpod halfway through.</p>
+<p>MyAnimeVault was developed on Gitpod, using git and Github to host. Howeever this section will be written from the perspective of Visual Studio Code because I started with that IDE and then moved to Gitpod halfway through.</p>
 
 <h3>Cloning MyAnimeVault from Github:</h3>
 
